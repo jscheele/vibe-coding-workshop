@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Exercise outputs — participants/instructor regenerate these by running the scripts
+data/transactions_clean.csv
+solutions/summary_report.csv
+solutions/transaction_report.xlsx
+solutions/loan_decisions.csv
+solutions/flagged_transactions.csv
