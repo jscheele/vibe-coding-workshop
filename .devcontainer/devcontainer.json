@@ -2,7 +2,8 @@
   "name": "Vibe Coding Workshop",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": { "version": "lts" }
   },
   "customizations": {
     "vscode": {
@@ -19,6 +20,6 @@
       }
     }
   },
-  "postCreateCommand": "pip install pandas openpyxl faker --quiet",
+  "postCreateCommand": "pip install pandas openpyxl faker --quiet && npm install -g @google/gemini-cli --quiet",
   "remoteUser": "vscode"
 }

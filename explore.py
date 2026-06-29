@@ -4,7 +4,7 @@
 import pandas as pd
 
 print("=" * 60)
-print("OCBC Transaction Data — Initial Profile")
+print("Bank Transaction Data — Initial Profile")
 print("=" * 60)
 
 df = pd.read_csv('data/transactions_messy.csv')

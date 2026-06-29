@@ -1,7 +1,6 @@
 # Vibe Coding with Python — Workshop Repository
 
 **NTU PACE | Professional Certificate in Applied AI Solutions | Week 2**
-OCBC Run 3 — July 2026
 
 ---
 
@@ -23,7 +22,7 @@ python explore.py
 
 | Folder / File | What it is |
 |---------------|------------|
-| `data/transactions_messy.csv` | 500-row synthetic OCBC transaction dataset with 8 data quality issues |
+| `data/transactions_messy.csv` | 500-row synthetic banking transaction dataset with 8 data quality issues |
 | `data/loan_applicants.csv` | 50-row loan applicant dataset for Exercise 4C Option A |
 | `explore.py` | Starter profiling script — run this first |
 | `exercises/exercise_4a/` | Data Cleaning & Wrangling (30 min) |
@@ -35,7 +34,7 @@ python explore.py
 
 ## Important notes
 
-- **This dataset is synthetic.** It does not contain any real OCBC customer data.
+- **This dataset is synthetic.** It does not contain any real bank customer data.
 - Use GitHub Copilot (ghost text + chat) as your AI coding assistant throughout.
 - Remember: **read before you run**. Copilot is helpful but not always right.
 - Your Codespace persists for **30 days** after this session. Return anytime.

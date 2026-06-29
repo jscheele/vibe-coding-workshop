@@ -2,6 +2,9 @@
 __pycache__/
 *.pyc
 
+# Claude Code skill definition — kept local, not part of the published repo
+SKILL.md
+
 # Exercise outputs — participants/instructor regenerate these by running the scripts
 data/transactions_clean.csv
 solutions/summary_report.csv
