@@ -16,13 +16,9 @@
 
 1. Your codespace should open automatically. If not: **Code → Codespaces → Create codespace on main**.
 2. Open the terminal (`` Ctrl+` `` or **Terminal → New Terminal**).
-3. Run the starter script to profile the dataset:
-
-```bash
-python explore.py
-```
-
-4. You're ready. Start with **Exercise 4A**.
+3. Open `explore.ipynb` in the file explorer and click **Run All** (▶▶ button, top of the notebook).
+4. Read the output, note what looks wrong, discuss with your partner.
+5. You're ready. Start with **Exercise 4A**.
 
 ---
 
@@ -32,11 +28,14 @@ python explore.py
 |---------------|------------|
 | `data/transactions_messy.csv` | 500-row synthetic banking transaction dataset with 8 data quality issues |
 | `data/loan_applicants.csv` | 50-row loan applicant dataset for Exercise 4C Option A |
-| `explore.py` | Starter profiling script — run this first |
+| `explore.ipynb` | Interactive data profiling notebook — open this first |
 | `exercises/exercise_4a/` | Data Cleaning & Wrangling (30 min) |
 | `exercises/exercise_4b/` | Data Transformation & Reporting (20 min) |
 | `exercises/exercise_4c/` | Decision Tool — Loan Checker or Alert Generator (20 min) |
+| `exercises/closing.md` | 5-minute closing activity |
+| `prompt_cards/prompt_framework.md` | The 5-element prompt structure — read before writing your own prompts |
 | `prompt_cards/` | Guided prompts for beginner tier participants |
+| `AGENTS.md` | Coding conventions read automatically by all AI tools in this repo |
 
 ---
 

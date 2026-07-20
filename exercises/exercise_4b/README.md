@@ -19,3 +19,24 @@ Transform the clean data into business-ready reports.
 ## Prompt tip
 Include the column names and expected output format in your prompt.
 Tell Copilot exactly what libraries to use.
+
+## Verify your output (don't just run — assert)
+
+After generating code, add these checks before moving to Exercise 4C.
+If any assertion fails, the generated code has a bug — go back and fix it.
+
+```python
+# Paste these lines at the end of your script and run them
+assert 'high_value' in df.columns, "missing high_value column"
+assert df['high_value'].dtype == bool, "high_value should be boolean"
+assert df.loc[df['amount'] > 10000, 'high_value'].all(), "high_value not set correctly"
+assert df.loc[df['amount'] <= 10000, 'high_value'].eq(False).all(), "false positives in high_value"
+
+import pathlib
+assert pathlib.Path('summary_report.csv').exists(), "summary_report.csv not saved"
+print("All checks passed.")
+```
+
+> **Why assertions instead of just looking?** Visual inspection misses edge cases.
+> An assertion either passes or tells you exactly what broke.
+> This is the same technique used to verify this repo was built correctly.

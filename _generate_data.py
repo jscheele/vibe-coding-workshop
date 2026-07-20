@@ -1,4 +1,14 @@
 # _generate_data.py — run once to create the workshop datasets
+#
+# HOW THIS FILE WAS MADE (a vibe coding example):
+# 1. The 8 data quality issues were described to an AI assistant in plain English.
+# 2. The AI produced a first draft of this script.
+# 3. The output CSV was inspected with assertions to verify each issue was present.
+# 4. Bugs found (wrong row counts, missing edge cases) were fixed via follow-up prompts.
+# 5. The final script was committed; the CSVs it produces are git-ignored (regenerable).
+#
+# This is the throwaway-script pattern: generate the artefact, keep the generator,
+# discard the artefact from version control. The script IS the source of truth.
 import pandas as pd
 import numpy as np
 import random
