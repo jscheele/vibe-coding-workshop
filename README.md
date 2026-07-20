@@ -4,9 +4,17 @@
 
 ---
 
+## Get your own copy
+
+> **Click "Use this template" → "Create a new repository"** (green button, top-right of this page).  
+> Choose a name (e.g. `vibe-coding-workshop`), set visibility to **Private**, and click **Create repository**.  
+> Then open your new repo in Codespaces: **Code → Codespaces → Create codespace on main**.
+
+---
+
 ## Getting started
 
-1. This repository should already be open in GitHub Codespaces.
+1. Your codespace should open automatically. If not: **Code → Codespaces → Create codespace on main**.
 2. Open the terminal (`` Ctrl+` `` or **Terminal → New Terminal**).
 3. Run the starter script to profile the dataset:
 
